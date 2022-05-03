@@ -1,0 +1,1 @@
+<p><%= OwnerAdd.message(@username, @package) %></p>

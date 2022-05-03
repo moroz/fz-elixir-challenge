@@ -1,0 +1,4 @@
+<%= @inner_content %>
+
+<%= "-- " %>
+Hex.pm

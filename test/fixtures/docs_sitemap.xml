@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <sitemap>
+    <loc>http://localhost:5002/{package}/sitemap.xml</loc>
+    <lastmod>2014-04-17T14:00:00Z</lastmod>
+  </sitemap>
+
+</sitemapindex>

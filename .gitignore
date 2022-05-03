@@ -1,0 +1,16 @@
+/tmp
+/logs
+
+/_build
+/db
+/deps
+/*.ez
+
+/assets/node_modules
+
+erl_crash.dump
+
+/priv/static
+
+.tool-versions
+.elixir_ls

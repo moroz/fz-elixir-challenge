@@ -1,0 +1,1 @@
+<p><%= OwnerRemove.message(@username, @package) %></p>
