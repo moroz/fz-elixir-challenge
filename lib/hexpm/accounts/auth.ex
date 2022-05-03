@@ -61,7 +61,7 @@ defmodule Hexpm.Accounts.Auth do
 
     valid_user = user && !User.organization?(user) && user.password
 
-    if valid_user && password == user.password do
+    if valid_user && Bcrypt.verify_pass(password, user.password) do
       {:ok,
        %{
          key: nil,
